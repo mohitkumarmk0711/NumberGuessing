@@ -14,47 +14,45 @@ body{
 }
 
 .container{
-    width:380px;
+    width:500px;
     background:#fff;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
     text-align:center;
 }
 
 h2{
     color:#333;
-    margin-bottom:20px;
+    margin-bottom:25px;
+    font-size:32px;
 }
 
 input{
     width:100%;
-    padding:12px;
+    padding:16px;
     border:2px solid #ccc;
-    border-radius:8px;
-    font-size:16px;
+    border-radius:10px;
+    font-size:22px;
     text-align:center;
     outline:none;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 
 input:focus{
     border-color:#4CAF50;
 }
 
-#hint{
-    min-height:25px;
-    font-weight:bold;
-    color:#0066cc;
+.buttons{
     margin-bottom:15px;
 }
 
 button{
-    padding:10px 22px;
-    margin:5px;
+    padding:14px 35px;
+    margin:0 8px;
     border:none;
-    border-radius:8px;
-    font-size:16px;
+    border-radius:10px;
+    font-size:20px;
     cursor:pointer;
     transition:0.3s;
 }
@@ -77,19 +75,29 @@ button:active{
     transform:scale(0.98);
 }
 
-p{
+#hint{
+    min-height:35px;
+    color:#0066cc;
+    font-weight:bold;
+    font-size:22px;
     margin-top:10px;
-    font-size:17px;
+    margin-bottom:15px;
+}
+
+#guessText{
+    margin-top:10px;
+    font-size:22px;
+    color:#333;
 }
 
 #count{
-    font-weight:bold;
     color:#ff5722;
+    font-weight:bold;
 }
 
 #result{
-    margin-top:20px;
+    margin-top:15px;
+    font-size:24px;
     font-weight:bold;
     color:green;
-    font-size:18px;
 }
